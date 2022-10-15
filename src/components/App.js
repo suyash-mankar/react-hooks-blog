@@ -1,8 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { Navbar, Home, CreatePost, PostDetail } from './';
 
-
-
 function App() {
   return (
     <div className="container">
