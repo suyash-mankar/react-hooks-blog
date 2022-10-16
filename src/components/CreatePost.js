@@ -13,7 +13,7 @@ function CreatePost() {
         e.preventDefault();
         console.log('title', title.value);
         console.log('subTitle', title.value);
-        console.log('content', title.value);
+        console.log('content', title.value );
 
         firestore.collection('posts').add({
             title: title.value,
