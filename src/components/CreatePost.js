@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import {firestore} from '../firebase';
 import {useFormInput} from '../hooks';
 
@@ -14,6 +13,7 @@ function CreatePost() {
         console.log('title', title.value);
         console.log('subTitle', title.value);
         console.log('content', title.value );
+        
 
         firestore.collection('posts').add({
             title: title.value,
